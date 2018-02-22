@@ -2,6 +2,7 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
+//Cia  bus kazkas naujo..............
 -- the entity
 entity xor is
 port (
@@ -15,5 +16,3 @@ begin
 o_f <= i_a xor i_b;
 end xor_arc;
 
--- sveiki
--- privet
